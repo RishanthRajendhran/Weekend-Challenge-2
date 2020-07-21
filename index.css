@@ -1,0 +1,194 @@
+body {
+    width: 100vw;
+    overflow: hidden;
+    overflow-y: auto;
+}
+@font-face {
+    font-family: Poppins;
+    src: url("/Users/rishanthrajendhran/Downloads/Poppins/Poppins-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url("/Users/rishanthrajendhran/Downloads/Open_Sans/OpenSans-Regular.ttf");
+}
+
+* {
+    font-family: OpenSans;
+}
+
+h1, h2, button {
+    font-family: Poppins;
+    font-weight: bold;
+}
+#jumboFlex {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(193, 100%, 96%);
+    padding: 0 5%;
+}
+
+#navFlex {
+    display: flex;
+    padding:1%;
+    justify-content: space-between;
+}
+
+#navImg img {
+    width: 65%;
+}
+
+#navBtn {
+    width: 10%;
+}
+
+#navBtn button {
+    border: 1px solid transparent;
+    border-radius: 30px;
+    width: 100%;
+    padding:5%;
+    background-color: white;
+    box-shadow: 1px 1px 10px hsl(208, 11%, 55%);
+    font-weight: bold;
+}
+
+#jumbotronFlex {
+    display: flex;
+    padding: 2%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#jumbotronFlex div {
+    margin: 8%;
+    margin-left: 0;
+}
+
+#jumbotronFlex h1 {
+    font-weight: bold;
+}
+
+#jumbotronFlex p {
+    font-size: 14px;
+}
+
+#jumbotronFlex img {
+    width:50%;
+}
+
+.getStartedButton {
+    background-color: hsl(322, 100%, 66%);
+    color:white;
+    border-radius: 50px;
+    padding:2%;
+    border: none;
+    box-shadow: none;
+    width: 40%;
+}
+
+#contentFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.innerContentFlex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+    border: none;
+    box-shadow: 1px 1px 10px hsl(208, 11%, 55%);
+    margin-bottom: 2.5%;
+}
+
+.innerContentFlex div {
+    width: 40%;
+}
+
+.innerContentFlex:nth-of-type(even) {
+    flex-direction: row-reverse;
+}
+
+.innerContentFlex img {
+    width: 100%;
+}
+
+#community {
+    display: block;
+    width: 100%;
+    padding: 0 25%;
+    z-index: 1;
+}
+
+#innerCommFlex {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 10px hsl(208, 11%, 55%);
+    padding:2.5%;  
+    border-radius: 10px;  
+    background-color: white;
+    z-index: 3;
+}
+
+#footerFlex {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top:-60px;
+    padding: 5%;
+    padding-top: 120px;
+    z-index: 2;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    font-size: 12px;
+}
+
+#footerFlex img {
+    color:white;
+}
+
+#innerFooterFlex {
+    display: flex;
+    padding-top: 2.5%;
+}
+
+#innerFooterFlex > div {
+    width: 22%;
+}
+
+#innerFooterFlex > div:first-of-type {
+    width: 40%;
+}
+
+#innerInnerFooterFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.iconFlex {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+.iconFlex > div {
+    width: 60%;
+    margin: 1%;
+}
+
+.iconFlex > div:first-of-type {
+    width: 5%;
+}
+
+.iconFlex img {
+    width: 50%;
+}

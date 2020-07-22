@@ -6,13 +6,13 @@ body {
 }
 @font-face {
     font-family: Poppins;
-    src: url("/Users/rishanthrajendhran/Downloads/Poppins/Poppins-Bold.ttf");
+    src: url("./fonts/Poppins/Poppins-Bold.ttf");
     font-weight: bold;
 }
 
 @font-face {
     font-family: OpenSans;
-    src: url("/Users/rishanthrajendhran/Downloads/Open_Sans/OpenSans-Regular.ttf");
+    src: url("./fonts/Open_Sans/OpenSans-Regular.ttf");
 }
 
 * {
